@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+img{
+  width: 100%;
+}
+#slider_temp{
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 400px;
+}
+.mySlider{
+  &_wrapper{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  };
+  &_list{
+    display: inline-flex;
+    overflow: visible;
+    transition: all .3s;
+  }
+
+}
